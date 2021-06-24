@@ -20,6 +20,11 @@ npm install vm2
 npm install uglify-es
     
 npm install js-beautify
+
+npm install escodegen
+
+<!-- 或 -->
+npm install esprima css-tree cssbeautify vm2 uglify-es js-beautify escodegen -g
 ```
 
 # 分包功能
@@ -32,6 +37,8 @@ npm install js-beautify
 3. 解包子包  
     - windows系统使用: `./bingo.bat testpkg/sub-1-xxx.wxapkg -s=../master-xxx`
     - Linux系统使用:  `./bingo.sh testpkg/sub-1-xxx.wxapkg -s=../master-xxx`
+
+或者 node wuWxapkg.js ./src/_123456789.wxapkg
 
 觉得麻烦?可以使用[自助解包客户端](#自助解包客户端)
 
